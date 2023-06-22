@@ -1,0 +1,193 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  
+}
+
+.contairner{
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+ 
+.nav-container, .navbar, .login-cadastro, .bx-home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar{
+  font-size: 20px;
+}
+
+.nav-container{
+  background-color: black;
+  height: 3.5em;
+  justify-content: space-between;
+  padding: 15px 2%;
+}
+
+.image-header{
+  width: 5em;
+}
+
+.navbar a{
+  color: white;
+  padding: 20px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.logo .bx{
+  font-size: 1.6em;
+  color: #fff;
+}
+
+.bx-home{
+  color: #fff;
+}
+
+.btn{
+  padding: 8px 22px;
+  border-radius: 5rem;
+  width: 100px;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+
+main{
+  background-color: white;
+  width: 90vw;
+  height: 105vh;
+  margin: auto;
+  border-radius: 1rem;
+}
+#title{
+  position: relative;
+  text-align: center;
+  font-family: 'Irish Grover', cursiva;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
+.baner-anuncio1{
+  display: flex;
+  margin: auto;
+  width: 90vw;
+  height: 30vh;
+}
+
+.casa1{
+  display: flex;
+  position: relative;
+  width: 85vw;
+  height: 26vh;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  background-color: grey;
+}
+
+.casa1:hover{
+  transform: scale(1.03);
+  transition-delay: 200ms;
+  border-radius: 0.5rem;
+}
+.casa1 img{
+  width: 15.4rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  
+}
+.textos{
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+}
+
+.valor{
+  display: flex;
+  justify-content: end;
+}
+
+.casa2{
+  display: flex;
+  position: relative;
+  width: 85vw;
+  height: 26vh;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  background-color: grey;
+}
+
+.casa2:hover{
+  transform: scale(1.03);
+  transition-delay: 200ms;
+  border-radius: 0.5rem;
+}
+.casa2 img{
+  width: 15.4rem;
+  border-radius: 0.5rem;
+}
+
+.textos{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  padding-left: 1.2rem;
+}
+
+.baner-anuncio2{
+  display: flex;
+  margin: auto;
+  width: 90vw;
+  height: 30vh;
+}
+
+.baner-anuncio3{
+  display: flex;
+  margin: auto;
+  width: 90vw;
+  height: 25vh;
+} 
+
+/* Style footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.bx {
+  padding-left: 20px;
+}
+
+.bxl-whatsapp{
+  font-size: 30px;
+  color: white;
+}
+
+.bxl-instagram{
+  font-size: 30px;
+  color: white;
+}
+
+.bx-envelope{
+  font-size: 30px;
+  color: white;
+}
